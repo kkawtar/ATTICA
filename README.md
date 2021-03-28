@@ -1,16 +1,15 @@
 # A-new-benchmark-dataset-for-Arabic-text-based-traffic-panels-detection
-This repository is for allowing getting access to our Arabic text-based traffic panels dataset
 
-
-The goal of this dataset is to address  the  lack  of  traffic  panel datasets with Arabic scripts. Our main intention is to provide a  good-quality  dataset  that  will  help  researchers  to  developrobust  AI  approaches  for  traffic  panel  detection  and  Arabicroute information extraction. 
+The goal of this dataset is to address  the  lack  of  traffic  panel datasets with Arabic scripts. Our main intention is to provide a  good-quality  dataset  that  will  help  researchers  to  develop robust  AI  approaches  for  traffic  panel  detection  and  Arabic route information extraction. 
 
 Dataset source:
 
-Our  dataset  was  collected  from  open-source  images  on the  internet.  It  includes  a  total  of  1215  images  representingcaptured roadway scenes from multiple Arabic countries (e.g.Egypt,  Morocco,  Qatar,  Saudi  Arabia,  Algeria).  Images  inour  dataset  include  various  types  of  traffic  signs/panels.
+Our  dataset  was  collected  from  open-source  images  on the  internet.  It  includes  a  total  of  1215  images  representing captured roadway scenes from multiple Arabic countries (e.g.Egypt,  Morocco,  Qatar,  Saudi  Arabia,  Algeria).  Images  in our  dataset  include  various  types  of  traffic  signs/panels.
 
 The dataset contains two major sub-datasets:
 
 1-Sign sub-dataset: contains annotations of different types of traffic signs/panels objects. There 5 object categories in this set. Namely: Traffic panel, Traffic sign, Other-sign, Km-point and Add-panel.
+
 2-ext  sub-dataset:  contains  text  objects  with  line  andword level annotations. There two classes of object categories in this set. Namely: Line-level categories (Arabic readable line and Arabic unreable line) and Word-level categories (Arabic word, Arabic digits, Latin digits, special characters and Latin mileage units).
 
 Annotation:
@@ -20,4 +19,4 @@ In  addition,  a  CSV  file  is  provided  to  indicatethe downloadable source l
 
 Dataset download:
 
-To get access to the dataset, please contact kaoutar.sefriouiboujemaa@usmba.ac.ma
+To get free access to the dataset for research use, please contact kaoutar.sefriouiboujemaa@usmba.ac.ma
