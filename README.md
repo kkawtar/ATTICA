@@ -1,4 +1,4 @@
-# A-new-benchmark-dataset-for-Arabic-text-based-traffic-panels-detection
+# ATTICA: A-new-benchmark-dataset-for-Arabic-Text-based-TraffIC-pAnels-detection
 
 The goal of this dataset is to address  the  lack  of  traffic  panel datasets with Arabic scripts. Our main intention is to provide a  good-quality  dataset  that  will  help  researchers  to  develop robust  AI  approaches  for  traffic  panel  detection  and  Arabic route information extraction. 
 
