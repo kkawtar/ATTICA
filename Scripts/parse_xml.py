@@ -18,7 +18,7 @@ for out in out_names:
         os.makedirs(out)
     
 
-keep_name = ["panel","sign"]
+keep_name = ["panel","sign","corrupted]
 data_paths = [f for f in os.listdir(path) if os.path.isfile(os.path.join(path, f))]
 
 
