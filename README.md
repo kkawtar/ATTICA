@@ -2,7 +2,7 @@
 
 The goal of this dataset is to address  the  lack  of  traffic  panel datasets with Arabic scripts. Our main intention is to provide a  good-quality  dataset  that  will  help  researchers  to  develop robust  AI  approaches  for  traffic  panel  detection  and  Arabic route information extraction. 
 
-Dataset source:
+## Dataset overview:
 
 Our  dataset  was  collected  from  open-source  images  on the  internet.  It  includes  a  total  of  1215  images  representing captured roadway scenes from multiple Arabic countries (e.g.Egypt,  Morocco,  Qatar,  Saudi  Arabia,  Algeria).  Images  in our  dataset  include  various  types  of  traffic  signs/panels.
 
@@ -12,13 +12,16 @@ The dataset contains two major sub-datasets:
 
 2-Text  sub-dataset:  contains  text  objects  with  line  andword level annotations. There two classes of object categories in this set. Namely: Line-level categories (Arabic readable line and Arabic unreable line) and Word-level categories (Arabic word, Arabic digits, Latin digits, special characters and Latin mileage units).
 
-Annotation:
+## Annotation:
 
 The dataset was annotated using Labelme. This  latter  automatically  generates  XML  metadata  files according to the Pascal VOC format, where it includes the im-age name, size, object bboxes coordinates and correspondingclass  names.
 
-*"Annotations.rar" includes a total of 1215 XML annotation file, including all of the dataset's categories.
+*"Voc annotation file/Annotations.rar" includes a total of 1215 XML annotation file, including all of the dataset's categories.
+*"split_annotations.py" is a python script that allows to split the dataset into seperate annotation folders, where each corresponds to a specific category. 
 
-In  addition,  a  CSV  file named "Filenames_sourceLinks.csv" is  provided  to  indicate the downloadable source links of all images, along with other information  describing  the  contained  traffic  panels:
+## Images source links:
+
+A  CSV  file named "Filenames_sourceLinks.csv" is  provided  to  indicate the downloadable source links of all images, along with other information  describing  the  contained  traffic  panels:
 
 *TP-shape: indicates the shapes of the TPs in the corresponding image (1: Rectangular, 2:Arrow, 3:Rock, 4: Circular)
 
@@ -32,6 +35,6 @@ In  addition,  a  CSV  file named "Filenames_sourceLinks.csv" is  provided  to  
 
 PS: This csv file helps to preserve the images copyrights.
 
-Dataset download:
+## Dataset download:
 
 To get free access to the dataset for research use, please contact kaoutar.sefriouiboujemaa@usmba.ac.ma
