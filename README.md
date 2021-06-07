@@ -21,9 +21,13 @@ The dataset was annotated using Labelme. This  latter  automatically  generates 
 In  addition,  a  CSV  file named "Filenames_sourceLinks.csv" is  provided  to  indicate the downloadable source links of all images, along with other information  describing  the  contained  traffic  panels:
 
 *TP-shape: indicates the shapes of the TPs in the corresponding image (1: Rectangular, 2:Arrow, 3:Rock, 4: Circular)
+
 *TP-type: indicates the type of the TP based on its content and the roadway-type (1: City-TP, 2:Highway-TP, 3:Public-facilities)
+
 *TP-color: indicates the TPs colors (1:Blue, 2:green, 3:White, 4:yellow, 5:Orange, 6:Black, 7:Other)
+
 *Noise: indicates if the corresponding image includes any noise (0:Yes, 1:No)
+
 *Resolution: indicates if the corresponding image resolution used in our annotation is the same as it is in the sourceLink (0:No, 1:yes)
 
 PS: This csv file helps to preserve the images copyrights.
