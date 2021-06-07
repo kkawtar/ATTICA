@@ -34,7 +34,7 @@ A  CSV  file named "Filenames_sourceLinks.csv" is  provided  to  indicate the do
 
 * Resolution: indicates if the corresponding image resolution used in our annotation is the same as it is in the sourceLink (0:No, 1:yes)
 
-PS: This csv file helps to preserve the images copyrights.
+> PS: This csv file helps to preserve the images copyrights.
 
 ## Dataset download:
 
