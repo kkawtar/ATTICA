@@ -1,1 +1,9 @@
 This folder contains a set of python script that allow monitoring the dataset's annotation files and source links as well.
+
+* download_script.py: allows downloanding the images using the "Filenames_sourceLinks.csk" file
+
+* split_annotations.py: allows splitting the VOC annotations files in the "Annotations" folder, into seperate folders where each corresponds to a specific object category (e.g, Traffic Panel, Traffic sign, etc)
+
+* merge_annotations.py: allows merging all of the objects' annotations into unique files in one folder (as it is initially provided)
+
+* parse_xml.py: allows reading the annotated objects in the xml annotation files.
