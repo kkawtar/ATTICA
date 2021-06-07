@@ -17,9 +17,8 @@ for out in out_names:
     if not os.path.exists(out):
         os.makedirs(out)
     
-#j ai remarque il y la classe "corrupted" ??????"
 
-keep_name = ["panel","sign","corrupted"]
+keep_name = ["panel","sign"]
 data_paths = [f for f in os.listdir(path) if os.path.isfile(os.path.join(path, f))]
 
 
