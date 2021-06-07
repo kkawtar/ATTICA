@@ -16,7 +16,7 @@ The dataset contains two major sub-datasets:
 
 The dataset was annotated using Labelme. This  latter  automatically  generates  XML  metadata  files according to the Pascal VOC format, where it includes the im-age name, size, object bboxes coordinates and correspondingclass  names.
 
-* "Voc annotation file/Annotations.rar" includes a total of 1215 XML annotation file, including all of the dataset's categories.
+* "Annotations/voc_annotation_files.rar" includes a total of 1215 XML annotation file, including all of the dataset's categories.
 
 * "split_annotations.py" is a python script that allows to split the dataset into seperate annotation folders, where each corresponds to a specific category. 
 
