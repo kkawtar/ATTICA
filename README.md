@@ -36,7 +36,7 @@ A  CSV  file named "Filenames_sourceLinks.csv" is  provided  to  indicate the do
 
 > PS: This csv file helps to preserve the images copyrights.
 
-** A python script is provided (see Scripts/download_script.py) to allow downloading the dataset using the "Filenames_sourceLinks.csv" file. **
+**A python script is provided (see Scripts/download_script.py) to allow downloading the dataset using the "Filenames_sourceLinks.csv" file.**
 
 > For more scripts to monitor the dataset's annotation files, check the "Scripts" folder
 
