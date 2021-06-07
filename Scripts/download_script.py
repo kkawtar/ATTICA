@@ -11,7 +11,7 @@ ua = UserAgent()
 headers = {'User-Agent':str(ua.chrome)}
 
 
-data = pd.read_csv("all_data.csv")
+data = pd.read_csv("Filenames_sourceLinks.csv")
 
 
 
@@ -25,12 +25,12 @@ if not os.path.exists(dir_save):
 
 for index, row in data.iterrows():
     
-    if(row['link']!="not found"):
+    if(row['SourceLink']!="not found"):
         
         
-        url = row['link']
+        url = row['SourceLink']
         extension = ""
-        file_name = row['name'].split('.')[0]
+        file_name = row['Filename'].split('.')[0]
         
         tmp_name = dir_save+file_name
         
@@ -46,7 +46,7 @@ for index, row in data.iterrows():
                 file_tmp = filetype.guess('tmp_name')
 
                 if (file_tmp is None):
-                    print("Error : ",row['name'])
+                    print("Error : ",row['Filename'])
                 else:
                     extension = file_tmp.extension
 
@@ -56,8 +56,8 @@ for index, row in data.iterrows():
 
             except requests.exceptions.Timeout:
 
-                print("Timeout : ",row['name'])
+                print("Timeout : ",row['Filename'])
 
             except requests.exceptions.RequestException as e:
-                print("exceptions : ",row['name'])
+                print("exceptions : ",row['Filename'])
    
